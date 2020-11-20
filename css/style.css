@@ -45,16 +45,17 @@ ul.navbar-language :not(li:last-child) a {
   background-image: url('../img/hero-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 600px;
   position: relative;
 }
 
 .jumbo h1 {
-  font-size: 32px;
+  font-size: 48px;
 }
 
 .jumbo p {
   margin: 10px 0;
+  font-weight: 550;
 }
 
 .jumbo .testo {
