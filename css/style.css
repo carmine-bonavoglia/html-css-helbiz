@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.container-80{
+  width: 80%;
+  margin: 0 auto;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
@@ -13,8 +18,25 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color: #6a6a6a;
+}
+
+p{
+  font-size: 18px;
+}
+
 ul {
   list-style: none;
+}
+
+.fab{
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.padding-top{
+  padding-top: 20px;
 }
 
 /* header */
@@ -83,11 +105,11 @@ ul.navbar-language :not(li:last-child) a {
 
 #prodotti .row{
   line-height: 2.2;
-  margin: 40px 20px;
+  margin: 20px;
 }
 
 #prodotti .row img{
-  height: 400px;
+  width: 100%;
 }
 
 #prodotti .row .row{
@@ -100,20 +122,24 @@ ul.navbar-language :not(li:last-child) a {
 /* /Prima sezione */
 
 /* Seconda Sezione */
-#phone .row{
+#steps .back-steps{
   background-image: url('../img/index-banner.1f6fd0a.jpg');
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#steps .row{
   position: relative;
 }
 
-#phone .row img{
+#steps .row img{
   height: 510px;
   position: absolute;
-  top:100%;
+  top:-70%;
   left:50%;
   transform: translate(-50%,-50%);
+  z-index: 1;
 }
 
 #steps .row{
@@ -149,15 +175,25 @@ ul.navbar-language :not(li:last-child) a {
 #mobility .row a{
   color: #fafafa;
 }
+
+#mobility .row a:hover{
+  color: #6a6a6a;
+}
 /* /Terza Sezione */
 
 /* Quarta Sezione */
 #app .row{
-  margin: 40px 20px;
+  margin:20px;
+  line-height: 2;
 }
 
 .get-app{
-  height: 507px;
+  height: 548px;
+}
+
+.get-app img{
+  height: 350px;
+  margin-top: 30px;
 }
 
 .get-app,
@@ -168,7 +204,7 @@ ul.navbar-language :not(li:last-child) a {
 
 .find-us{
   background-image: url(../img/city.7c8c928.jpg);
-  height: 507px;
+  height: 548px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -177,6 +213,11 @@ ul.navbar-language :not(li:last-child) a {
 .find-us a{
   display: block;
   color: white;
+}
+
+.get-app a:hover,
+.find-us a:hover{
+  color: #6a6a6a;
 }
 /* /Quarta Sezione */
 
@@ -191,18 +232,69 @@ ul.navbar-language :not(li:last-child) a {
 
 .text-family{
   text-align: center;
+  vertical-align: middle;
   background-color: white;
   height: 150px;
   width: 300px;
-  padding: 50px;
+  padding: 35px;
+  line-height: 2;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-
-
-
-
 /* /Quinta Sezione */
+
+/* Footer */
+/* Contatti */
+footer{
+  background-color: black;
+  padding: 30px 0;
+  line-height: 2;
+}
+
+#contatti .row h2,
+#contatti .row li{
+  color: white;
+}
+
+#contatti .row a{
+  color: #6a6a6a;
+}
+
+#contatti .row a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+
+/* /Contatti */
+
+/* Copyright */
+
+#copyright .row li {
+  display: inline-block;
+}
+
+#copyright .row a{
+  color: white;
+  font-size: 14px;
+}
+
+.border{
+  height: 100px;
+  line-height: 100px;
+  border-top: 1px solid #6a6a6a;
+  border-bottom: 1px solid #6a6a6a;
+  margin-top: 20px;
+}
+
+#copyright .row a:hover{
+  color: #6a6a6a;
+  cursor: pointer;
+}
+
+/* /Copyright */
+
+/* /Footer */
