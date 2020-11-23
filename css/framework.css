@@ -54,6 +54,10 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 /* margin */
 .m-10 {
   margin: 10px;
@@ -113,6 +117,10 @@
 
 .lg-display-none{
   display: none;
+}
+
+.lg-display-bloc{
+  display: block;
 }
 
 @media screen  and (max-width:992px) {

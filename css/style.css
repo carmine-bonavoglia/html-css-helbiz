@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
@@ -72,3 +78,131 @@ ul.navbar-language :not(li:last-child) a {
     font-size: 26px;
   }
 }
+
+/* Prima Sezione */
+
+#prodotti .row{
+  line-height: 2.2;
+  margin: 40px 20px;
+}
+
+#prodotti .row img{
+  height: 400px;
+}
+
+#prodotti .row .row{
+  background-color: #fafafa;
+}
+
+#prodotti .row a{
+  display: block;
+}
+/* /Prima sezione */
+
+/* Seconda Sezione */
+#phone .row{
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#phone .row img{
+  height: 510px;
+  position: absolute;
+  top:100%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+#steps .row{
+  text-align: left;
+  line-height: 1.6;
+  height: 200px;
+  margin-top: 130px;
+}
+
+/* /Seconda Sezione */
+
+
+/* Terza Sezione */
+#mobility{
+  background-image: url('../img/scooter.f0a0397.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#mobility .row{
+  width: 100%;
+  position: absolute;
+  line-height: 3;
+  top:50%;
+  left:50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  padding: 0 100px;
+}
+
+#mobility .row a{
+  color: #fafafa;
+}
+/* /Terza Sezione */
+
+/* Quarta Sezione */
+#app .row{
+  margin: 40px 20px;
+}
+
+.get-app{
+  height: 507px;
+}
+
+.get-app,
+.find-us{
+  background-color: #31404e;
+  color: white;
+}
+
+.find-us{
+  background-image: url(../img/city.7c8c928.jpg);
+  height: 507px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-app a,
+.find-us a{
+  display: block;
+  color: white;
+}
+/* /Quarta Sezione */
+
+/* Quinta Sezione */
+#family .row{
+  background-image: url(../img/family.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text-family{
+  text-align: center;
+  background-color: white;
+  height: 150px;
+  width: 300px;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* /Quinta Sezione */
